@@ -40,27 +40,18 @@ function ContactPage() {
           </h1>
           <p className="mt-6 text-base text-muted-foreground leading-relaxed max-w-md">
             Share a few details and we'll come back within two working days with menu
-            ideas and a tailored proposal. We're based in London and travel throughout
-            the UK.
+            ideas and a tailored proposal. We're based in Newtownabbey and travel
+            throughout Northern Ireland.
           </p>
 
           <div className="mt-12 space-y-6">
-            <div className="flex items-start gap-4">
-              <div className="h-10 w-10 rounded-full bg-muted grid place-items-center border border-border/60">
-                <Phone className="h-4 w-4 text-primary" />
-              </div>
-              <div>
-                <div className="text-xs uppercase tracking-wider text-muted-foreground">Call</div>
-                <div className="mt-1">+44 20 0000 0000</div>
-              </div>
-            </div>
             <div className="flex items-start gap-4">
               <div className="h-10 w-10 rounded-full bg-muted grid place-items-center border border-border/60">
                 <Mail className="h-4 w-4 text-primary" />
               </div>
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Email</div>
-                <div className="mt-1">hello@lundikcatering.com</div>
+                <div className="mt-1">info@lundikcatering.com</div>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -69,7 +60,7 @@ function ContactPage() {
               </div>
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Studio</div>
-                <div className="mt-1">London, United Kingdom</div>
+                <div className="mt-1">1 Kings Crescent, Doagh Road,<br />Newtownabbey, BT37 0DH</div>
               </div>
             </div>
           </div>
