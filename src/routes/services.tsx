@@ -12,7 +12,7 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "Wedding catering, corporate events, private dining and drop-off catering across the UK — seasonal menus designed and served by Lundik Catering Limited.",
+          "Wedding catering, corporate events, private dining and drop-off catering across Northern Ireland — seasonal menus designed and served by Lundik Catering Limited.",
       },
       { property: "og:title", content: "Services — Lundik Catering" },
       {
