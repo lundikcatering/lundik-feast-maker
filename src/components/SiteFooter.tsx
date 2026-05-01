@@ -19,7 +19,7 @@ export function SiteFooter() {
           </div>
           <p className="mt-5 max-w-md text-sm text-muted-foreground leading-relaxed">
             Seasonal, locally sourced catering for weddings, corporate gatherings,
-            and intimate celebrations. Crafted with care, served with grace.
+            and intimate celebrations across Northern Ireland. Crafted with care, served with grace.
           </p>
         </div>
 
