@@ -65,7 +65,7 @@ function ServicesPage() {
         </h1>
         <p className="mt-6 text-lg text-muted-foreground max-w-2xl">
           A full-service catering team for weddings, corporate gatherings, private
-          dinners and drop-off celebrations — across London and the wider UK.
+          dinners and drop-off celebrations — across Newtownabbey, Belfast and Northern Ireland.
         </p>
       </section>
 
