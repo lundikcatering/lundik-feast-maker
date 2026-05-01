@@ -2,6 +2,8 @@ import { Link } from "@tanstack/react-router";
 import { Mail, MapPin } from "lucide-react";
 
 export function SiteFooter() {
+  const currentYear = 2026;
+
   return (
     <footer className="mt-32 border-t border-border/60 bg-muted/40">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 grid gap-12 md:grid-cols-4">
@@ -36,14 +38,24 @@ export function SiteFooter() {
         <div>
           <h4 className="font-display text-lg mb-4">Get in touch</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> info@lundiecatering.com</li>
-            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 text-primary mt-0.5" /> 1 Kings Crescent, Doagh Road,<br />Newtownabbey, BT37 0DH</li>
+            <li className="flex items-center gap-2">
+              <Mail className="h-4 w-4 text-primary" />
+              <span>info@lundiecatering.com</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <MapPin className="mt-0.5 h-4 w-4 text-primary" />
+              <span>
+                1 Kings Crescent, Doagh Road,
+                <br />
+                Newtownabbey, BT37 0DH
+              </span>
+            </li>
           </ul>
         </div>
       </div>
       <div className="border-t border-border/60">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Lundie Catering Limited. All rights reserved.</p>
+          <p>© {currentYear} Lundie Catering Limited. All rights reserved.</p>
           <p className="font-display tracking-wide">Crafted with seasonal care.</p>
         </div>
       </div>
