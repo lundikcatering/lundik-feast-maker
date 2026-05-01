@@ -41,7 +41,7 @@ function HomePage() {
             </h1>
             <p className="mt-7 text-lg text-muted-foreground max-w-xl leading-relaxed">
               Lundik Catering Limited brings considered, seasonal menus to weddings,
-              boardrooms and private tables across the UK — combining honest
+              boardrooms and private tables across Northern Ireland — combining honest
               ingredients with quietly confident service.
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
