@@ -11,7 +11,7 @@ export function SiteFooter() {
               L
             </span>
             <div>
-              <div className="font-display text-2xl">Lundik Catering</div>
+              <div className="font-display text-2xl">Lundie Catering</div>
               <div className="text-xs uppercase tracking-[0.22em] text-muted-foreground">
                 Limited
               </div>
@@ -36,14 +36,14 @@ export function SiteFooter() {
         <div>
           <h4 className="font-display text-lg mb-4">Get in touch</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> info@lundikcatering.com</li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> info@lundiecatering.com</li>
             <li className="flex items-start gap-2"><MapPin className="h-4 w-4 text-primary mt-0.5" /> 1 Kings Crescent, Doagh Road,<br />Newtownabbey, BT37 0DH</li>
           </ul>
         </div>
       </div>
       <div className="border-t border-border/60">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Lundik Catering Limited. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Lundie Catering Limited. All rights reserved.</p>
           <p className="font-display tracking-wide">Crafted with seasonal care.</p>
         </div>
       </div>

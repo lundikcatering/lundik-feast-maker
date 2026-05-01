@@ -5,13 +5,13 @@ import { Mail, MapPin, Send, Check } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Lundik Catering Limited" },
+      { title: "Contact — Lundie Catering Limited" },
       {
         name: "description",
         content:
-          "Get in touch with Lundik Catering Limited. Tell us about your wedding, corporate event or private dinner and we'll come back with a tailored proposal.",
+          "Get in touch with Lundie Catering Limited. Tell us about your wedding, corporate event or private dinner and we'll come back with a tailored proposal.",
       },
-      { property: "og:title", content: "Contact Lundik Catering" },
+      { property: "og:title", content: "Contact Lundie Catering" },
       {
         property: "og:description",
         content: "Tell us about your event and request a tailored catering proposal.",
@@ -51,7 +51,7 @@ function ContactPage() {
               </div>
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Email</div>
-                <div className="mt-1">info@lundikcatering.com</div>
+                <div className="mt-1">info@lundiecatering.com</div>
               </div>
             </div>
             <div className="flex items-start gap-4">

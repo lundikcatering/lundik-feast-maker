@@ -8,13 +8,13 @@ import privateChef from "@/assets/private.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Lundik Catering Limited — Seasonal catering, beautifully served" },
+      { title: "Lundie Catering Limited — Seasonal catering, beautifully served" },
       {
         name: "description",
         content:
           "Award-worthy catering for weddings, corporate events and private dinners. Seasonal menus, locally sourced ingredients, exceptional service.",
       },
-      { property: "og:title", content: "Lundik Catering Limited" },
+      { property: "og:title", content: "Lundie Catering Limited" },
       {
         property: "og:description",
         content:
@@ -40,7 +40,7 @@ function HomePage() {
               Catering crafted for moments worth remembering.
             </h1>
             <p className="mt-7 text-lg text-muted-foreground max-w-xl leading-relaxed">
-              Lundik Catering Limited brings considered, seasonal menus to weddings,
+              Lundie Catering Limited brings considered, seasonal menus to weddings,
               boardrooms and private tables across Northern Ireland — combining honest
               ingredients with quietly confident service.
             </p>
@@ -80,7 +80,7 @@ function HomePage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-elevated">
               <img
                 src={hero}
-                alt="Lundik catering spread on a terracotta and sage table"
+                alt="Lundie catering spread on a terracotta and sage table"
                 className="h-full w-full object-cover"
                 width={1600}
                 height={1200}
@@ -175,7 +175,7 @@ function HomePage() {
         <div className="mx-auto max-w-5xl px-6 lg:px-10 py-24 text-center">
           <span className="text-xs uppercase tracking-[0.28em] text-primary">Kind words</span>
           <blockquote className="mt-8 font-display text-3xl md:text-4xl leading-snug text-balance">
-            “Lundik turned our wedding into something we still hear about.
+            “Lundie turned our wedding into something we still hear about.
             The food was exquisite, the service invisible in the best way.”
           </blockquote>
           <div className="mt-8 text-sm text-muted-foreground">

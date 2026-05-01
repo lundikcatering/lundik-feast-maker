@@ -5,13 +5,13 @@ import about from "@/assets/about.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Lundik Catering Limited" },
+      { title: "About — Lundie Catering Limited" },
       {
         name: "description",
         content:
-          "Founded on a love of seasonal food and warm hospitality, Lundik Catering Limited is a Northern Ireland catering team serving weddings, corporate events and private dinners.",
+          "Founded on a love of seasonal food and warm hospitality, Lundie Catering Limited is a Northern Ireland catering team serving weddings, corporate events and private dinners.",
       },
-      { property: "og:title", content: "About Lundik Catering" },
+      { property: "og:title", content: "About Lundie Catering" },
       {
         property: "og:description",
         content: "Our story, our kitchen, our approach to seasonal hospitality.",
@@ -34,7 +34,7 @@ function AboutPage() {
       <section className="mx-auto max-w-7xl px-6 lg:px-10 py-16 grid lg:grid-cols-12 gap-12 items-start">
         <div className="lg:col-span-7 order-2 lg:order-1 space-y-6 text-base leading-relaxed text-muted-foreground">
           <p>
-            Lundik Catering Limited began with a simple belief: that food cooked with
+            Lundie Catering Limited began with a simple belief: that food cooked with
             care and served with warmth has the power to make a moment unforgettable.
             What started as a small kitchen serving family celebrations has grown into a
             trusted catering team for weddings, corporate gatherings and private dinners
@@ -72,7 +72,7 @@ function AboutPage() {
           <div className="aspect-[4/5] overflow-hidden rounded-sm shadow-elevated">
             <img
               src={about}
-              alt="Lundik chefs plating canapés in the kitchen"
+              alt="Lundie chefs plating canapés in the kitchen"
               loading="lazy"
               className="h-full w-full object-cover"
               width={1400}
