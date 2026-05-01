@@ -34,7 +34,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Lundik Catering Limited delivers seasonal, locally sourced catering for weddings, corporate events, and private celebrations across the UK.",
+          "Lundik Catering Limited delivers seasonal, locally sourced catering for weddings, corporate events, and private celebrations across Northern Ireland.",
       },
       { property: "og:title", content: "Lundik Catering Limited" },
       {

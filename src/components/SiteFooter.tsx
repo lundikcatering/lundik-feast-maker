@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 export function SiteFooter() {
   return (
@@ -19,7 +19,7 @@ export function SiteFooter() {
           </div>
           <p className="mt-5 max-w-md text-sm text-muted-foreground leading-relaxed">
             Seasonal, locally sourced catering for weddings, corporate gatherings,
-            and intimate celebrations. Crafted with care, served with grace.
+            and intimate celebrations across Northern Ireland. Crafted with care, served with grace.
           </p>
         </div>
 
@@ -36,9 +36,8 @@ export function SiteFooter() {
         <div>
           <h4 className="font-display text-lg mb-4">Get in touch</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> +44 20 0000 0000</li>
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> hello@lundikcatering.com</li>
-            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 text-primary mt-0.5" /> London, United Kingdom</li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> info@lundikcatering.com</li>
+            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 text-primary mt-0.5" /> 1 Kings Crescent, Doagh Road,<br />Newtownabbey, BT37 0DH</li>
           </ul>
         </div>
       </div>
