@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "Founded on a love of seasonal food and warm hospitality, Lundik Catering Limited is a UK catering team serving weddings, corporate events and private dinners.",
+          "Founded on a love of seasonal food and warm hospitality, Lundik Catering Limited is a Northern Ireland catering team serving weddings, corporate events and private dinners.",
       },
       { property: "og:title", content: "About Lundik Catering" },
       {
