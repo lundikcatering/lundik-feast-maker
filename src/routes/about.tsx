@@ -38,7 +38,7 @@ function AboutPage() {
             care and served with warmth has the power to make a moment unforgettable.
             What started as a small kitchen serving family celebrations has grown into a
             trusted catering team for weddings, corporate gatherings and private dinners
-            across the UK.
+            across Northern Ireland.
           </p>
           <p>
             Our menus are designed weekly around the seasons. We work directly with
