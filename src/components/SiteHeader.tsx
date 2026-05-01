@@ -20,7 +20,7 @@ export function SiteHeader() {
             L
           </span>
           <div className="leading-tight">
-            <div className="font-display text-xl tracking-tight">Lundik</div>
+            <div className="font-display text-xl tracking-tight">Lundie</div>
             <div className="text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
               Catering Limited
             </div>

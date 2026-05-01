@@ -8,13 +8,13 @@ import hero from "@/assets/hero.jpg";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Wedding, Corporate & Private Catering | Lundik" },
+      { title: "Services — Wedding, Corporate & Private Catering | Lundie" },
       {
         name: "description",
         content:
-          "Wedding catering, corporate events, private dining and drop-off catering across Northern Ireland — seasonal menus designed and served by Lundik Catering Limited.",
+          "Wedding catering, corporate events, private dining and drop-off catering across Northern Ireland — seasonal menus designed and served by Lundie Catering Limited.",
       },
-      { property: "og:title", content: "Services — Lundik Catering" },
+      { property: "og:title", content: "Services — Lundie Catering" },
       {
         property: "og:description",
         content: "Wedding, corporate, private dining and drop-off catering services.",
