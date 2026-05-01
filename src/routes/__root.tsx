@@ -36,7 +36,7 @@ export const Route = createRootRoute({
         content:
           "Lundik Catering Limited delivers seasonal, locally sourced catering for weddings, corporate events, and private celebrations across Northern Ireland.",
       },
-      { property: "og:title", content: "Lundik Catering Limited" },
+      { property: "og:title", content: "Lundik Catering Limited — Seasonal catering for unforgettable events" },
       {
         property: "og:description",
         content:
@@ -44,6 +44,12 @@ export const Route = createRootRoute({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Lundik Catering Limited — Seasonal catering for unforgettable events" },
+      { name: "description", content: "Lundik Catering Hub is a professional website for Lundik Catering Limited, showcasing services and company details." },
+      { property: "og:description", content: "Lundik Catering Hub is a professional website for Lundik Catering Limited, showcasing services and company details." },
+      { name: "twitter:description", content: "Lundik Catering Hub is a professional website for Lundik Catering Limited, showcasing services and company details." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3255b02b-b4ac-4672-a798-8f99def07716/id-preview-51b729ff--c3797015-add8-4480-a268-bc80abd02301.lovable.app-1777636193567.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3255b02b-b4ac-4672-a798-8f99def07716/id-preview-51b729ff--c3797015-add8-4480-a268-bc80abd02301.lovable.app-1777636193567.png" },
     ],
     links: [{ rel: "stylesheet", href: appCss }],
   }),
